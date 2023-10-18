@@ -45,6 +45,9 @@ int main(int argc, char **argv) {
     printf("tax");
   }
   
+  childCredit = numChildren * 1000;
+  totalTax = childCredit - tax;
+
   
 
   printf("AGI:          $%10.2f\n", agi);

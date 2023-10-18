@@ -1,4 +1,5 @@
 /**
+ * AUtho
  * This program determines if various years are leap
  * years or not.
  *
@@ -14,7 +15,7 @@
  */
 int isLeapYear(int year);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv) { 
 
   bool reportPass = false;
   if(argc > 1 && strcmp(argv[1], "-reportPass") == 0) {
@@ -76,8 +77,13 @@ int main(int argc, char **argv) {
 }
 
 int isLeapYear(int year) {
-  //TODO: Write your logic here
-  //      The year is stored in the variable year
-  //      Your function should return true (1) if it represents a leap year
-  //      and false (0) if it does not.
+  if(year%4==0 && year%400==0 || year%100==0)
+  {
+    return 1;
+  }
+  else
+  {
+    return 0;
+  }
+  return 0;
 }

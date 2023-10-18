@@ -40,6 +40,11 @@ int main(int argc, char **argv) {
     tax=5000+(agi-50000) * 0.20;
     printf("%f",tax);
   }
+  else
+  {
+    printf("tax");
+  }
+  
   
 
   printf("AGI:          $%10.2f\n", agi);

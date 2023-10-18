@@ -1,6 +1,6 @@
 /**
- * Author:
- * Date:
+ * Author: Hifza Nazir
+ * Date: 10/18/2023
  *
  * This programs provides basic calculator functionality
  * allowing a user to enter two operands and to compute
@@ -10,6 +10,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+int min(int x, int y)
+{
+  int ans = (x<y) ? x : y;
+  return ans;
+}
 
 int main(int argc, char **argv) {
 

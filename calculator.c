@@ -43,10 +43,16 @@ int main(int argc, char **argv) {
     printf("%f", result);
   } else if(choice == 3) {
     //TODO: handle this case (multiplication)
+    result = a * b;
+    printf("%f", result);
   } else if(choice == 4) {
     //TODO: handle this case (division)
+    result = a / b;
+    printf("%f", result);
   } else if(choice == 5) {
     //TODO: handle this case (minimum)
+    result = min(a,b) ;
+    printf("%f", result);
   } else if(choice == 6) {
     //TODO: handle this case (log_a(b))
   } else {

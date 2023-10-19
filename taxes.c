@@ -46,6 +46,13 @@ int main(int argc, char **argv) {
     tax=9328+(agi-172750 ) * 0.22;
     printf("%f",tax);
   }
+  else if (agi>=172751 && agi <=329850 )
+ {
+  
+    tax=29505+(agi-172750 ) * 0.24;
+    printf("%f",tax);
+  }
+  
  }
   
   childCredit = numChildren * 1000;

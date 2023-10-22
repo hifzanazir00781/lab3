@@ -117,7 +117,7 @@ int main(int argc, char **argv) {
   }
   else if(agi<=628301)
   {
-    if(agi<=500000)
+    if(agi<=500000 && numChildren == 5)
     {
       childCredit = 114088.50;
     }
@@ -129,7 +129,10 @@ int main(int argc, char **argv) {
     totalTax = tax * (agi-628300);
     tax = tax - childCredit;
   }
- 
+ else
+ {
+  printf("you Enter an invalid input\n");
+ }
   
 
   printf("AGI:          $%10.2f\n", agi);
